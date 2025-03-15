@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 2px;
+    background-color: none;
+}
+.encabezado{
+    background-color: #274C77;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.logo{
+    width: 100px;
+    border-radius: 30px;
+    margin: 10px 0px;
+    margin-left: 30px;
+}
+.listado_principal{
+    list-style-type: none;
+}
+.list-principal{
+    float: left;
+    margin-left: 40px;   
+}
+.enlace-principal{
+    color: white;
+    text-decoration: none;
+}
+.conte-principal{
+    width: auto;
+    height: 900px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+.conte-principal p{
+    font-size: 18px;
+}
+.as-prin{
+    padding: 5px;
+    border: 1px solid white;
+    width: 30%;
+    background-color: #274C77;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.as-prin h2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.as-prin ul{
+    padding: 0;
+    list-style-type: none;
+    justify-items: center;
+}
+.as-prin ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.secc-principal{
+    background-color: #8B8C89;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid white;
+}
+.secc-principal h2{
+    margin: 15px 0 15px 0;
+    text-align: center;
+
+}
+.articulos{
+    display: flex;
+    padding: 5px;
+    height: 25%;
+}
+.con-parrafo{
+    width: 75%;
+    text-align: justify;
+    padding: 15px;
+}
+.conte-imagen{
+    width: 25%;
+}
+.img-principal{
+    width: 100%;
+    height: 150px;
+    border-radius: 50px;
+}
+.seccion-2{
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+.seccion-2 div{
+    width: 50%;
+}
+footer{
+    display: inline-block;
+    background-color: #274C77;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    justify-items: center;
+    align-content: center;
+    border: 1px solid white;
+}
